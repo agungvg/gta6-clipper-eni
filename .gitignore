@@ -1,0 +1,8 @@
+# Media and work files — never part of the submitted snapshot.
+*.mp4
+*.mov
+*.mkv
+source/
+*.part
+*.ytdl
+out/
