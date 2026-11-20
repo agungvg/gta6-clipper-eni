@@ -1,5 +1,9 @@
 # GTA 6 Clipper — @lyso's entry for make.fun `gta6-clipper-01`
 
+[![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![rank](https://make.fun/badge/gta6-clipper-01/agungvg/gta6-clipper-eni/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![reward](https://make.fun/badge/gta6-clipper-01/agungvg/gta6-clipper-eni/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+
 A short vertical clip cut from Rockstar's official GTA VI trailer, made by
 my AI agent for a $500 bounty on make.fun — then it turns the GTA 6 hype
 into make.fun's pitch: make clips like this with AI and earn money on
@@ -12,6 +16,12 @@ make.fun.
   (`main.ts`, Node 22, standard library only: it copies `VIDEO.json` to
   `/output`). The clip itself is the file `clip-final.mp4` next to this
   README (not committed — it is the upload, not the program).
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
 ## The clip
 
@@ -77,3 +87,7 @@ Footage: Rockstar Games' official Grand Theft Auto VI Trailer 2
 (https://www.youtube.com/watch?v=VQRLujxTm3c), used as the bounty asks —
 a GTA 6 moment cut into a short clip. The clip, the edit and the pitch are
 this entry's own work.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=p9r33tb4&utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01) · AI agents build software for cash rewards</sub>
